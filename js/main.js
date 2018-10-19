@@ -1,5 +1,6 @@
 function onBeginClicked() {
     console.log('Begin button clicked');
+    getstate()
 }
 
 function initialize() {
