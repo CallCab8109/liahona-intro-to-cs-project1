@@ -9,5 +9,7 @@ function initialize() {
 function getstate() { 
      var table = document.getElementById('gameBoard');
     console.log(table)
+   var rows = table.getElementsByTagName("tr");
+    console.log(rows)
     
 }
