@@ -19,6 +19,9 @@ function getstate() {
             var cell = cells [x];
             var alive = cell.classList.contains('alive');
             console.log(alive)
+            var rowAlive = alive.getElementsByTagName 
+            console.log(rowAlive)
         }
     }
 }
+// variable representing a row make row represent ray
