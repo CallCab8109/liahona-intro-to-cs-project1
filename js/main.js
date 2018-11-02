@@ -28,5 +28,6 @@ function getstate() {
         }
     }
     state.append(rowValues);
+    console.log(state);
 }
 // variable representing a row make row represent ray
